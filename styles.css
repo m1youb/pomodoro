@@ -1,0 +1,52 @@
+* {
+    font-family: "IBM Plex Sans", sans-serif;
+    color: white;
+}
+
+body {
+    background: url("./assets/images/pixel2.jpg") right bottom no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+
+#card {
+    display: inline-block;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.443);
+    border-radius: 20px;
+    text-align: center;
+    width: 400px;
+}
+
+button {
+    background-color: rgb(119, 245, 245);
+    cursor: pointer;
+    font-size: 3vh;
+    border-radius: 10px;
+    border: solid 1px white;
+    padding: 10px;
+}
+
+h1 {
+    font-size: 6vh;
+}
+
+#timer {
+    font-size: 14vh;
+    margin: 20px 0;
+}
+
+#start {
+    background-color: rgb(14, 158, 14);
+}
+
+#stop {
+    background-color: rgb(189, 49, 15);
+}
+
+#reset {
+    background-color: rgb(167, 162, 4);
+}
