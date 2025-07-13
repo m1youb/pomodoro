@@ -26,27 +26,44 @@ button {
     cursor: pointer;
     font-size: 3vh;
     border-radius: 10px;
-    border: solid 1px white;
+    /* border: solid 1px white; */
     padding: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    display: inline-block;
+    width: 100px;
 }
 
 h1 {
     font-size: 6vh;
+    margin: 0;
 }
 
 #timer {
     font-size: 14vh;
-    margin: 20px 0;
+    margin: 0;
 }
 
 #start {
     background-color: rgb(14, 158, 14);
 }
 
+#start:hover {
+    background-color: rgb(8, 98, 8);
+}
+
 #stop {
     background-color: rgb(189, 49, 15);
 }
 
+#stop:hover {
+    background-color: rgb(136, 35, 10);
+}
+
 #reset {
     background-color: rgb(167, 162, 4);
+}
+
+#reset:hover {
+    background-color: rgb(119, 115, 4);
 }

@@ -9,10 +9,14 @@ let timeLeft = 15000;
 function updateTimer() {
   let minutes = Math.floor(timeleft / 60);
   let seconds = timeleft % 60;
-  let formattedTime = 
+  let formattedTime = `${minutes.toString().padStart(2, "0")}:${seconds.toString().padStart(2, "0")}`;
+  
+  timerEl.innerHTML = formattedTime;
 }
 
-
+function startTimer() {
+  
+}
 
 
 
